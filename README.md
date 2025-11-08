@@ -1,29 +1,31 @@
-# File Explorer Project
+# 🗂 File Explorer – Capstone Project
 
-This is a desktop-based File Explorer application that allows users to:
+## 📘 Project Overview
+This project is a simple **File Explorer** built using **C++ (C++17)** that allows users to explore, list, and manage files and directories through the command line interface.
 
-- Create, delete, and rename files and folders
+It demonstrates the use of **C++ filesystem library** for handling files and folders dynamically — making it a great project for understanding file operations in real systems.
 
-- View contents of directories
+---
 
-- Manage files efficiently through a user-friendly interface
+## 🎯 Objective
+To design and implement a console-based **File Explorer** that allows:
+- Viewing and navigating directories  
+- Displaying file information  
+- Performing basic operations like creating, renaming, and deleting files/folders  
+- Demonstrating practical use of `<filesystem>` in C++
 
-## How to Run
+---
 
-1. Open the project folder in a C/C++ IDE (like VS Code or Code::Blocks).
+## ⚙️ Technologies Used
+- **C++17**
+- **STL (Standard Template Library)**
+- **Filesystem Library**
+- **Command-Line Interface (CLI)**
 
-2. Compile the source code files.
+---
 
-3. Run the executable and interact with the File Explorer program.
-
-## Features
-
-- **Create Files and Folders**: Easily create new files and directories in the system.
-
-- **Delete Files and Folders**: Remove unwanted files or directories safely.
-
-- **Rename Files and Folders**: Quickly rename existing files or directories.
-
-- **View Directory Contents**: List all files and folders within a directory.
-
-- **User-Friendly Interface**: Simple and clean interface for ease of use.
+## 🚀 How to Run
+1. Open **Git Bash** or **Command Prompt** inside your project folder.
+2. Compile the code using:
+   ```bash
+   g++ -std=c++17 file_explorer.cpp -o file_explorer
