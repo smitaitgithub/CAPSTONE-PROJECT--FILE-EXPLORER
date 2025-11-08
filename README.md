@@ -27,6 +27,6 @@ To design and implement a console-based **File Explorer** that allows:
 ## 🚀 How to Run
 1. Open **Git Bash** or **Command Prompt** inside your project folder.
 2. Compile the code using:
-   ```bash
  g++ file_explorer.cpp -o file_explorer -lstdc++fs
+
 
