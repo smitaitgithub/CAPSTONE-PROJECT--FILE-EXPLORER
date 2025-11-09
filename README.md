@@ -1,26 +1,27 @@
 # 🗂 File Explorer – Capstone Project
 
 ## 📘 Project Overview
-This project is a simple **File Explorer** built using **C++ (C++17)** that allows users to explore, list, and manage files and directories through the command line interface.
+This project is a simple File Explorer Application built using C++ (C++17) .It enables users to explore, list, and manage files and directiories through a command line interface. 
+The project showcases the uses of the C++ filesystem library for performing dynamic file and directory operations .It serves as an excellent learning example learning example for understanding how real-world file management systems function. 
 
-It demonstrates the use of **C++ filesystem library** for handling files and folders dynamically — making it a great project for understanding file operations in real systems.
 
 ---
 
 ## 🎯 Objective
-To design and implement a console-based **File Explorer** that allows:
-- Viewing and navigating directories  
-- Displaying file information  
-- Performing basic operations like creating, renaming, and deleting files/folders  
-- Demonstrating practical use of `<filesystem>` in C++
+To design and implement a console-based File Explorer that allows: 
+•	Navigating through directory structures. 
+•	Displaying detailed file and folder information. 
+•	Performing file operations like creating, renaming, and deleting files/folders. 
+•	Showcasing practical implementation of the <filesystem>library in C++. 
+
 
 ---
 
 ## ⚙️ Technologies Used
-- **C++17**
-- **STL (Standard Template Library)**
-- **Filesystem Library**
-- **Command-Line Interface (CLI)**
+•	C++17 
+•	STL (Standard Template Library) 
+•	Library for file and directory handling 
+•	Command-Line Interface (CLI) 
 
 ---
 
@@ -28,5 +29,6 @@ To design and implement a console-based **File Explorer** that allows:
 1. Open **Git Bash** or **Command Prompt** inside your project folder.
 2. Compile the code using:
  g++ file_explorer.cpp -o file_explorer -lstdc++fs
+
 
 
